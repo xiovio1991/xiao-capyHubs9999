@@ -40,8 +40,8 @@ Rayfield:Notify({
    Image = 4483362458,
 })
 
-local ScriptXTab = Window:CreateTab("Main", 4483362458) -- Title, Image
-local Button = ScriptXTab:CreateButton({
+local Tab = Window:CreateTab("Main", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
    Name = "Load Script",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/raxoner/superstarscript1826838/refs/heads/main/nothing%20hub"))()
