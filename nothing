@@ -41,12 +41,10 @@ Rayfield:Notify({
    Image = 4483362458,
 })
 
-local XTab = Window:CreateTab("Main", 4483362458) -- Title, Image
+local XTab = Window:CreateTab("Cpoint", 4483362458) -- Title, Image
 local Button = XTab:CreateButton({
    Name = "Load Script",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/raxoner/superstarscript1826838/refs/heads/main/nothing%20hub"))()
    end,
 })
-
-Rayfield:Destroy()
